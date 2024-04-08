@@ -16,5 +16,6 @@ import { CategoryEntity } from 'src/category/entities/category.entity';
   ],
   controllers: [ProductController],
   providers: [ProductService],
+  exports: [ProductService],
 })
 export class ProductModule {}
